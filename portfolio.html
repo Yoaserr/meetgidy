@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Meetgiddy</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="first-head">
+    <div class="fbaba">
+      <h1 class="logo">Meetgiddy</h1>
+    </div>
+  </header>
+
+  <header class="top-header">
+    <div class="container">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="about.html">About</a>
+        <a class="btn" href="book.html">Book Me</a>
+      </nav>
+    </div>
+  </header>
+  <!-- ===== END HEADER ===== -->
+
+
+  <section class="portfolio-section">
+    <div class="portfolio-container">
+
+      <h1>Portfolio</h1>
+
+      <p class="portfolio-subtitle">
+        Contact me to get you work done...Concepts of my Portfolio and works similar to my skills.
+      </p>
+
+      <div class="portfolio-grid">
+
+        <!-- Project 1 -->
+        <div class="portfolio-card">
+          <div class="portfolio-image">
+            <span>Portfolio Preview</span>
+          </div>
+          <h3>Business Consulting Website</h3>
+          <p>
+            A modern consulting website concept focused on services,
+            credibility, and client conversion.
+          </p>
+          <p class="tools">HTML • CSS • JavaScript</p>
+          <a
+            href="https://springfield-psi.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="portfolio-btn"
+          >
+            View Concept
+          </a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="portfolio-card">
+          <div class="portfolio-image">
+            <span>Portfolio Preview</span>
+          </div>
+          <h3>Technical Support Services</h3>
+          <p>
+            A personal project demonstrating responsive layout,
+            service sections, and WhatsApp-based booking.
+          </p>
+          <p class="tools">Customer Service • Technical Rep</p>
+          <a
+            href="https://www.pinterest.com/search/pins/?q=technical%20support%20customer%20service&rs=ac&len=17&source_id=ac_HLL8g7Kj&eq=technical%20support&etslf=2835"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="portfolio-btn"
+          >
+            View Concept
+          </a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="portfolio-card">
+          <div class="portfolio-image">
+            <span>Portfolio Preview</span>
+          </div>
+          <h3>IT Support</h3>
+          <p>
+            A clean landing page graphic concept designed for fast
+            communication and lead generation.
+          </p>
+          <p class="tools">Graphic Design • Visual Communication</p>
+          <a
+            href="https://www.pinterest.com/search/pins/?q=graphic%20design%20inspiration&rs=ac&len=14&source_id=ac_MQs6SGb3&eq=graphic%20design&etslf=39"
+            target="_blank"
+            class="portfolio-btn"
+          >
+            View Concept
+          </a>
+        </div>
+
+      </div>
+
+      <div class="portfolio-cta">
+        <p>Your project could be here next.</p>
+        <a
+          href="https://wa.me/233559053685?text=Hello%20I%20would%20like%20to%20discuss%20a%20project"
+          target="_blank"
+          class="whatsapp-cta"
+        >
+          <i class="fab fa-whatsapp"></i> Start a Project
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Meetgiddy. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
+
