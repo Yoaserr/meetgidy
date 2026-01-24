@@ -625,3 +625,16 @@ header .logo img {
   }
   
 }
+
+/* ===============================
+   FIX HERO "HIRE ME" BUTTON
+   =============================== */
+@media (max-width: 768px) {
+  .hero .btn-lg {
+    width: auto;
+    display: inline-block;
+    padding: 12px 28px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+}
