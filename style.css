@@ -274,39 +274,97 @@ input, select, textarea {
 }
 
 
+/* ===============================
+   MOBILE RESPONSIVE FIXES
+   =============================== */
 @media (max-width: 768px) {
+
+  /* ----- HEADER ----- */
+  .first-head {
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .logo {
+    font-size: 26px;
+    margin: 0;
+  }
+
+  .top-header {
+    background: #111;
+    padding: 10px 0;
+  }
 
   nav {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
   }
 
   nav a {
-    margin: 8px 0;
+    margin: 0;
+    font-size: 14px;
   }
 
+  nav .btn {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+
+  /* ----- CONTAINER ----- */
+  .container {
+    padding: 30px 16px;
+  }
+
+  /* ----- HERO SECTION ----- */
   .hero {
-    padding: 60px 20px;
+    padding: 40px 16px;
+    text-align: center;
   }
 
   .hero h2 {
-    font-size: 28px;
+    font-size: 24px;
+    line-height: 1.3;
   }
 
-  .page-header h2 {
-    font-size: 28px;
-  }
-
-  .service-card,
-  .portfolio-card {
-    text-align: center;
+  .hero p {
+    font-size: 15px;
   }
 
   .btn-lg {
     width: 100%;
+    max-width: 280px;
+    margin: 20px auto 0;
+    display: block;
   }
-}/* =========================
+
+  /* ----- SERVICES GRID ----- */
+  .grid,
+  .services-grid,
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  /* ----- ABOUT PAGE ----- */
+  .about-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .profile-avatar {
+    margin: 0 auto 15px;
+  }
+
+  /* ----- FOOTER ----- */
+  .footer {
+    text-align: center;
+    padding: 20px 10px;
+  }
+
+}
+/* =========================
    BOOK ME - WHATSAPP ONLY
 ========================= */
 .book-whatsapp {
@@ -560,3 +618,4 @@ header .logo img {
   }
   
 }
+
