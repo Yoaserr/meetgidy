@@ -462,6 +462,53 @@ input, select, textarea {
   }
 }
 
+/* =========================
+   HEADER LOGO SIZE FIX
+========================= */
+.logo img {
+  height: 55px;       /* control logo size */
+  width: auto;        /* keep proportions */
+  object-fit: contain;
+}
+
+.top-header {
+  padding: 12px 30px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+@media (max-width: 768px) {
+  .logo img {
+    height: 48px;
+  }
+}
+
+/* =========================
+   FORCE LOGO SIZE (OVERRIDE)
+========================= */
+header .logo img {
+  max-height: 50px !important;
+  height: 50px !important;
+  width: auto !important;
+  max-width: none !important;
+}
+
+/* Control header height */
+.top-header {
+  height: auto !important;
+  padding: 10px 24px !important;
+}
+
+/* Control navbar */
+.navbar {
+  display: flex !important;
+  align-items: center !important;
+}
 
 
 
@@ -569,12 +616,5 @@ input, select, textarea {
 .whatsapp-cta:hover {
   box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4);
 }
-
-/* Mobile */
-@media (max-width: 600px) {
-  .portfolio-container h1 {
-    font-size: 30px;
-  }
-  
 }
 
