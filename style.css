@@ -334,12 +334,12 @@ input, select, textarea {
     font-size: 15px;
   }
 
-  .btn-lg {
+/*   .btn-lg {
     width: 100%;
     max-width: 280px;
     margin: 20px auto 0;
     display: block;
-  }
+  } */
 
   /* ----- SERVICES GRID ----- */
   .grid,
@@ -629,7 +629,7 @@ header .logo img {
 /* ===============================
    FIX HERO "HIRE ME" BUTTON
    =============================== */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .hero .btn-lg {
     width: auto;
     display: inline-block;
@@ -638,4 +638,5 @@ header .logo img {
     margin-top: 20px;
   }
 }
+ */
 
