@@ -334,12 +334,12 @@ input, select, textarea {
     font-size: 15px;
   }
 
-  .btn-lg {
+ /*  .btn-lg {
     width: 100%;
     max-width: 280px;
     margin: 20px auto 0;
     display: block;
-  }
+  } */
 
   /* ----- SERVICES GRID ----- */
   .grid,
@@ -618,3 +618,10 @@ header .logo img {
 }
 }
 
+/* Mobile */
+@media (max-width: 600px) {
+  .portfolio-container h1 {
+    font-size: 30px;
+  }
+  
+}
